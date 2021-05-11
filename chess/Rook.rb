@@ -11,7 +11,7 @@ class Rook < Piece
     # private
 
     def move_dirs
-       print HORIZONTAL_DIRS 
+       horizontal_and_vertical_dirs 
     end
 
 end
