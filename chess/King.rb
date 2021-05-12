@@ -2,7 +2,7 @@ require_relative 'piece.rb'
 require_relative 'stepable.rb'
 require_relative 'slideable.rb'
 
-class King
+class King < Piece
     include Stepable
     include Slideable
 

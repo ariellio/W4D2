@@ -8,13 +8,17 @@ class Piece
         @pos = pos
     end
 
+    def to_s
+        symbol
+    end
+    
     def empty?
         false
     end
 
-    # def symbol
-    #     symbol
-    # end
+    def symbol
+        symbol
+    end
 
 
 end
