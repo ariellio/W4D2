@@ -42,3 +42,7 @@ end
 # p chess
 # chess.move_piece([0,0], [4,4])
 # p chess
+
+# board1 = Board.new -> piece instances
+# board = Board.new
+# piece = Piece.new('black', self, [0,0])

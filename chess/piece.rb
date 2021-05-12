@@ -9,7 +9,7 @@ class Piece
     end
 
     def empty?
-        pos == nil
+        false
     end
 
     # def symbol
